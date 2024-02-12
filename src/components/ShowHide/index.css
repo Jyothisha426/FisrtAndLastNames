@@ -1,0 +1,78 @@
+.container1 {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 47px;
+  }
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-styles {
+  height: 45px;
+  width: 120px;
+  color: #dd1264;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px solid transparent;
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .button-styles {
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+  }
+}
+
+.name {
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: #fddddb;
+  height: 50px;
+  width: 120px;
+  border-radius: 7px;
+  border: 0px solid transparent;
+  text-align: center;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
